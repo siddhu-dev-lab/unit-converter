@@ -5,12 +5,8 @@
 body{
     width: 100vw;
     height: 100vh;
-    display: flex;
-    /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
     background-color: #87CEFA;
-}
-.contener{
-    border-right: 1px solid #000;
+    /* background-color: rgb(255, 255, 255); */
 }
 .contener .nav{
     width: 100vw;
@@ -22,40 +18,58 @@ body{
     font-weight: bold;
     text-align: center;
     margin: 0 0 50px 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
-.head{
+.main-contener{
+    width: 670px;
+    height: 170px;
+    margin: 0 auto;
+    border: 1px solid #919191;
+    border-radius: 10px;
+    background: rgba(221, 221, 221, 0.9);
+    box-shadow: rgba(11, 55, 138, 0.5) 0px 4px 12px;
+
     display: flex;
-    align-items: center;
     justify-content: center;
 }
-.head div{
-    height: 100px;
+.box{
+    min-width: 30px;
+    margin-top: 30px;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
-.head h1{
-    font-size: 40px;
+.eql-sign span{
+    font-size: 2.5em;
     font-weight: bold;
     color: #333;
-    margin: 20px;
+    margin: 0 15px;
 }
-.head label{
+.text-contener {
+    text-align: center;
+    height: 30px;
     font-size: 20px;
     font-weight: bold;
     color: #333;
-    margin-right: 20px;
-    display: block;
 }
-.head input{
+.main-contener input{
     width: 250px;
-    height: 25px;
+    height: 30px;
+    margin-top: 10px;
     outline: none;
-    border: 2px solid #333;
+    border: 1px solid #919191;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 0 5px;
     font-size: 20px;
 }
-/* linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%) */
+.units{
+    height: 30px;
+    width: 260px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    outline: 0;
+    border: 1px solid #919191;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px inset;
+}
 

@@ -11,20 +11,42 @@
         <nav class="nav">
             <h1 id="header">Unit Converter</h1>
         </nav>
-        <div class="head">
-            <div class="feet_contener">
-                <label for="feet">Feet</label>
-                <input type="number" name="feet" placeholder="1 Foot" id="feet">
+
+        <div class="main-contener">
+            <div class="box box-contener1">
+                <input type="number" placeholder="0" id="inp1">
+                <select name="unit" id="unit-selecter1" class="units">
+                    <option value="millimeter" selected>Millimeter</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="decimeter">Decimeter</option>
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="foot">Foot</option>
+                    <option value="inch">Inch</option>
+                    <option value="mile">Mile</option>
+                    <option value="yard">Yard</option>
+                </select>
             </div>
-            <div><h1>=</h1></div>
-            <div class="inch_contener">
-                <label for="inch">Inch</label>
-                <input type="number" name="inch" placeholder="12 Inch" id="inch" value="">
+
+            <div class="box eql-sign"><span>=</span></div>
+
+            <div class="box box-contener2">
+                <input type="number" placeholder="0" id="inp2" >
+                <select name="unit" id="unit-selecter2" class="units">
+                    <option value="millimeter" selected>Millimeter</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="decimeter">Decimeter</option>
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="foot">Foot</option>
+                    <option value="inch">Inch</option>
+                    <option value="mile">Mile</option>
+                    <option value="yard">Yard</option>
+                </select>
             </div>
         </div>
+
     </div>
-
-
     <script src="script.js"></script>
 </body>
 </html>
