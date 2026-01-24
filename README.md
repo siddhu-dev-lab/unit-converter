@@ -24,8 +24,8 @@ Open `index.html` in your browser or serve the folder with a static server.
 ## Usage
 1. Enter a numeric value.
 2. Select the input unit and the target unit.
-3. View the converted value instantly. Use clear or copy buttons if provided.
-
+3. View the converted value instantly.
+   
 ## How it works (implementation notes)
 - Uses a base unit (meters) and conversion factors to convert between units:
     value_in_target = value_in_source * (factor_source / factor_target)
