@@ -6,7 +6,6 @@ Simple, lightweight length unit converter built with HTML, CSS, and JavaScript.
 - Convert between common length units (meters, kilometers, centimeters, millimeters, miles, yards, feet, inches, millimeter)
 - Responsive, accessible UI
 - Instant conversion as values or units change
-- Clear and copy result actions
 
 ## Demo
 Open `index.html` in your browser or serve the folder with a static server.
@@ -22,14 +21,9 @@ Open `index.html` in your browser or serve the folder with a static server.
 - `README.md` — this file
 
 ## Usage
-1. Enter a numeric value.
-2. Select the input unit and the target unit.
+1. Select the input unit and the target unit.
+2. Enter a numeric value.
 3. View the converted value instantly.
-   
-## How it works (implementation notes)
-- Uses a base unit (meters) and conversion factors to convert between units:
-    value_in_target = value_in_source * (factor_source / factor_target)
-- Keep logic modular: parse input, validate numeric value, map unit keys to factors, calculate, and update DOM.
 
 ## Units included
 - meters (m), kilometers (km), centimeters (cm), millimeters (mm)
